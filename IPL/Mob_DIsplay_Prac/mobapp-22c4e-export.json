@@ -1,0 +1,129 @@
+[ {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 1,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fsony-xperia-z3-large.jpg?alt=media&token=386e00de-dcef-41da-b90a-31df7bb96cf2",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fsony-xperia-z3.jpg?alt=media&token=4417a4be-0c55-49fb-8bdf-507730190cad"
+  },
+  "name" : "Sony Xperia Z3",
+  "price" : 899,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 15,
+    "manufacturer" : "Sony",
+    "os" : "Android",
+    "storage" : 16
+  }
+}, {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 2,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fiphone6-large.jpg?alt=media&token=597e6188-0ef4-4c60-aa70-ab3776adbcd4",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fiphone6.jpg?alt=media&token=4e778ae4-8e5f-491f-8753-b0aa1f7f7541"
+  },
+  "name" : "Iphone 6",
+  "price" : 899,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 8,
+    "manufacturer" : "Apple",
+    "os" : "iOS",
+    "storage" : 16
+  }
+}, {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 3,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fhtc-one-large.jpg?alt=media&token=72237b78-f566-4266-a35c-8d979033488c",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fhtc-one.jpg?alt=media&token=cf400466-22db-40a9-b9c3-36ba042bbf54"
+  },
+  "name" : "HTC One M8",
+  "price" : 899,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 5,
+    "manufacturer" : "HTC",
+    "os" : "Android",
+    "storage" : 32
+  }
+}, {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 4,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fgalaxy-alpha-large.jpg?alt=media&token=815cefd9-5cf5-40e0-9fe1-fe4d38127285",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fgalaxy-alpha.jpg?alt=media&token=67122620-2651-4ba7-b441-d193050ca709"
+  },
+  "name" : "Galaxy Alpha",
+  "price" : 899,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 12,
+    "manufacturer" : "Samsung",
+    "os" : "Android",
+    "storage" : 32
+  }
+}, {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 5,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fnokia-lumia-large.jpg?alt=media&token=2e4c81a6-7e88-44b5-96f6-0173beaf17ef",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fnokia-lumia.jpg?alt=media&token=1bd721b0-f898-4935-ac44-e3e6de1565f6"
+  },
+  "name" : "Nokia Lumia",
+  "price" : 450,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 5,
+    "manufacturer" : "Nokia",
+    "os" : "Windows",
+    "storage" : 16
+  }
+}, {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 6,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fzte-nubia-large.jpg?alt=media&token=285758fe-7130-4956-9cc6-74d79a945dbf",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fzte-nubia.jpg?alt=media&token=e05ac0f2-09ca-483c-8010-ff698410a748"
+  },
+  "name" : "Zte Nubia",
+  "price" : 399,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 12,
+    "manufacturer" : "ZTE",
+    "os" : "Android",
+    "storage" : 32
+  }
+}, {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 7,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fgalaxy-s5-large.jpg?alt=media&token=40b9a79b-4c5d-4216-8e80-98c7b4d2702d",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fgalaxy-s5.jpg?alt=media&token=f9bc3cb8-d01f-48e4-a5c3-d35ec2ea5efc"
+  },
+  "name" : "Samsung Galaxy S5",
+  "price" : 399,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 15,
+    "manufacturer" : "Samsung",
+    "os" : "Android",
+    "storage" : 16
+  }
+}, {
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "id" : 8,
+  "image" : {
+    "large" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fiphone5s-large.jpg?alt=media&token=9222a329-060b-45aa-bc54-518a4351a59f",
+    "small" : "https://firebasestorage.googleapis.com/v0/b/mobapp-22c4e.appspot.com/o/singleMobApp%2Fiphone5s.jpg?alt=media&token=aebdc953-638f-4a5c-b8d3-e9f82a323a04"
+  },
+  "name" : "Iphone 5S",
+  "price" : 399,
+  "rating" : 4,
+  "specs" : {
+    "camera" : 8,
+    "manufacturer" : "Apple",
+    "os" : "iOS",
+    "storage" : 16
+  }
+} ]

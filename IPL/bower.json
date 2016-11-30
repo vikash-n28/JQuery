@@ -1,0 +1,21 @@
+{
+  "name": "GitDemo",
+  "homepage": "https://github.com/vikashprasad2810/Demo1",
+  "authors": [
+    "vikashprasad2810 <vikashprasad2810@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

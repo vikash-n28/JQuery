@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name = "viewport" content = "width=device-width, initial-scale=1" />
+    
+    <link rel = "stylesheet" href = "/IPL/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel = "stylesheet" href = "/IPL/bower_components/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script src = "/IPL/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src = "/IPL/bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+<title>Twitter Bootstrap Tutorial - A responsive layout tutorial</title>
+<style>
+  *{
+    box-sizing: border-box;
+      border: 1px solid transparent;
+}
+
+body{ 
+    background: #4143A3;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient( to bottom right, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);
+    /* Standard syntax */
+    height:100vh;
+    color: #fff;
+}
+.sidebar3
+{padding-top:30px;
+padding-left:30px;
+padding-right:0px;}
+.logo
+{
+float:left;
+}
+.logo > img
+{
+  box-shadow:0 0 0 1px #848FD8, 0 0 0 5px #1E1E45, 0 0 0 6px #848FD8,  -2px -2px 0 6px #00bcd4;
+  border:1px;
+  border-radius:100%;
+  padding:5px;
+
+}
+.name
+{ float:right;
+  clear:right;
+  padding:5px;
+  height: 74px;
+  vertical-align: middle;
+  padding-top:20px;
+  text-align:right;
+}
+.name > p
+{
+  margin-bottom: 0px;
+}
+i {
+  display: inline-block;
+  margin-right: 1em;
+}
+li
+{
+  list-style-type: none;
+  padding:5px;
+  border-bottom:1px solid #848FD8;
+}
+ul{padding-left:0px;}
+.activebooks
+{
+border:1px solid #848FD8;
+padding:0px 10px;
+margin-top:-2px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+.dropdown .fa-plus
+{ border:1px solid #848FD8;
+padding:4px;
+margin-top:-2px;
+margin-right:0px;
+}
+
+.list
+{
+  padding-left:20px;
+}
+.dropdown
+{
+  margin-left:-15px;
+}
+.submenu > li
+{ display:list-item;
+list-style-type: square;
+
+}
+.submenu{
+  padding-left:12px;
+}
+.submenu > li:hover
+{
+  color:blue;
+}
+.category::before, .category::after, .submenu::after
+{
+  content:" ";
+  white-space:pre;
+}
+i.fa.fa-circle-thin
+{
+  color:#00ff74;
+}
+li:hover{
+  background-color:rgba(255, 255, 255, 0.25);
+  cursor:pointer;
+}
+.main-content
+{ text-align: right;
+}
+.main-content > p > a
+{color: white;}
+</style>
+<script>
+  window.onload=function(){
+
+$('.dropdown').click(function(){
+$(this).siblings(".submenu").toggleClass('hide');
+
+});
+}
+</script>
+</head>
+<body>
+  <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-4 sidebar3">
+
+                <div class="logo">
+                    <img src="" class="img-responsive" alt="Logo">
+                </div>
+                <div class="name">
+                    <p>Arshi S</p>
+                    <p>12 Contributions</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 sidebar3">
+                <div class="left-navigation">
+                    <ul>
+                        <li><i class="fa fa-book" aria-hidden="true"></i>Books</li>
+                        <li><i class="fa fa-bookmark-o" aria-hidden="true"></i>Active Books <span class="activebooks pull-right">3</span></li>
+                        <li><i class="fa fa-trophy" aria-hidden="true"></i>Recommendations</li>
+                        <li><i class="fa fa-users" aria-hidden="true"></i>People</li>
+                        <li class="list">
+                            <div class="dropdown">
+                                <i class="fa fa-list" aria-hidden="true"></i>My Wishlist <i class="fa fa-plus pull-right" aria-hidden="true"></i>
+                            </div>
+                            <ul class="submenu hide">
+                                <li>The Sealed Nectar</li>
+                                <li>Pride and Prejudice</li>
+                                <li>HTML5 for Web Designers</li>
+                                <li>The 100, Michael H Heart</li>
+                            </ul>
+                        </li>
+                      </ul>
+                        <ul class="category">
+                        <li><i class="fa fa-circle-thin" aria-hidden="true"></i>Family Reading</li>
+                        <li><i class="fa fa-circle-thin" aria-hidden="true"></i>Education</li>
+                        <li><i class="fa fa-circle-thin" aria-hidden="true"></i>Business</li>
+                      </ul>
+                        <ul>
+                        <li><i class="fa fa-cog" aria-hidden="true"></i>Settings</li>
+                        <li><i class="fa fa-power-off" aria-hidden="true"></i>Logout</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 main-content">
+               <!--<p>Refer comment section below, to understand how the dropdown menu works using a one-line Jquery</p>-->
+               <P>Inspired by Gleb Kuznetsov's <a href="https://dribbble.com/shots/2364939-Book-iOS-App-Navigation" target="_blank"><i>dribbble</i></a></p>
+               <p>Feedbacks appreciated! :)</p>
+               <p>Connect with me on <a href="https://twitter.com/Arshizz" target="_blank"><button class="btn btn-primary"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</button></a> for upcoming cool stuff!</p>  
+          </div>
+           
+        </div>
+    </div>
+</body>
+</html>    

@@ -1,0 +1,32 @@
+
+<div class = "all-team">
+<h3><b>All TEAMS</b></h3>
+<ul class="team-list">
+    <script id="team-template" type="x-handlebars-template">
+        {{#each this}}
+        <li data-index="{{id}}" id="listdata">
+            <div class="team-photo"><img src="{{team_img_url}}" height="auto" width="180" alt="{{name}}" /></div>
+            <h2><a href="#">{{team_name}}</a></h2>
+            <a href="#" class="team-Buttom"><button class>View Team</button></a>
+        </li>
+        {{/each}}
+    </script>
+</ul>
+</div>
+
+
+<!--Display All Player-->
+<div class = "all-player">
+    <h3><b>All PLAYERS</b></h3>
+<ul class="player-list">
+    <script id="player-template" type="x-handlebars-template">
+        {{#each this}}
+        <li data-index="{{id}}" id="listdata">
+            <div class="player-photo"><img src="{{player_img_url}}" height="auto" width="180" alt="{{name}}" /></div>
+            <h2><a href="#">{{player_name}}</a></h2>
+            <a href="#" class="team-Buttom"><button class>View Profile</button></a>
+        </li>
+        {{/each}}
+    </script>
+</ul>
+</div>       
