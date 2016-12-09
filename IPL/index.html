@@ -4,11 +4,14 @@
 <head>
     <!-- Meta Tags -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IPLT20.com - Indian Premier League Official Website</title>
+    <!--<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>-->
     <link href="css/ipl.css" rel="stylesheet" />
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <style>
 
     </style>
@@ -17,7 +20,6 @@
 <body>
     <div class="container">
         <div class="row">
-
             <!--Meanu-Bar Display-->
             <header class="compact">
                 <h2 class="brand"><a href="index.html">ipl<br>T20.com</a></h2>
@@ -39,41 +41,27 @@
                     </li>
                 </ul>
             </header>
-
-
-            <div class="clr"></div>
-
-
-            <div id='main'>
-
-                <!--Home Page Display-->
-                <div class = "col-md-3">
-                <div class='maincontent' id='home'>
-                    <div class="jumbotron" >
-                        <div class = "bg" class = "image-responsive">
-                        <h2>Welcome to IPL T20</h2>
-                        </div>
+            <!--Home Page Display-->
+            <div class='main'>
+                <div class='maincontent'>
+                    <div class="jumbot">
+                        <span class="bg" class="image-responsive">
+                            <h2>Welcome to IPL T20</h2>
+                        </span>
+                        <!--movement of team-logo-->
+                        <span class="caption1">
+                            <div class = "title1"><h5>Team Participation</h5>
+                            <marquee behavior="scroll" direction="left"><ul class = "homologo"></ul></marquee>
+                        </span>
                     </div>
-                    <ul class = "homologo"><img class="logoimages" src="" height="auto" width="200" alt="" />
-                    </ul>
                 </div>
-                </div>
-
-
-                <!--All Team Display-->
-                <div class="display-team">
-                </div> 
-
-
-                  <!--All Team Player Display-->
-                 <div class='maincontent goTop' id='player'>
-                 </div>
-
-             </div>
-
+            </div>
+            <div class="footer">&copy; Copyright IPL, BCCI 2016. All Rights reserved.
+            </div>
         </div>
     </div>
 </body>
+<!--<script src="js/config.js"></script>-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
 <script src="js/ipl.js"></script>
 

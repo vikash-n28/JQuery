@@ -1,11 +1,11 @@
 {
-  "name": "GitDemo",
-  "homepage": "https://github.com/vikashprasad2810/Demo1",
+  "name": "ipl",
+  "homepage": "https://github.com/vikashprasad2810/jQuery",
   "authors": [
     "vikashprasad2810 <vikashprasad2810@gmail.com>"
   ],
-  "description": "",
-  "main": "",
+  "description": "ipl single page Web Application",
+  "main": "index.html",
   "license": "MIT",
   "private": true,
   "ignore": [
@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "angular": "^1.5.8"
   }
 }
