@@ -1,5 +1,0 @@
-languages:
-   JavaScript: true
-exclude_paths:
-- "sample/material-avatar.js"
-- "material-avatar.min.js"
